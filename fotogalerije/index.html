@@ -1,0 +1,27 @@
+---
+layout: default
+title: Fotogalerije
+---
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="/images/slider-pod-gladino-2.jpg" alt="First slide">
+    </div>
+</div>
+
+<div class="container py-3">
+  <h3>{{ page.title }}</h3>
+  <div class="row">
+    {% for gallery in site.data.galleries %}
+      <!-- <a href="{{ gallery.id }}">{{ gallery.description }}</a> -->
+      <div class="col-4 p-2">
+        <a href="{{ gallery.id }}"><image src="{{ gallery.id }}/{{gallery.thumb}}" class="img-thumbnail" /></a>
+        <p>{{ gallery.description }}</p>
+      </div>
+    {% endfor %}
+  </div>
+</div>

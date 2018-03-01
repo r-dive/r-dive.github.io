@@ -1,0 +1,41 @@
+- id: pod_gladino
+  description: Življenje pod morsko gladino
+  imagefolder: /fotogalerije/pod_gladino
+  thumb: slika-1.jpg
+  images:
+  - name: slika-1.jpg
+  - name: slika-2.jpg
+  - name: slika-3.jpg
+  - name: slika-4.jpg
+  - name: slika-5.jpg
+  - name: slika-6.jpg
+  - name: slika-7.jpg
+- id: 2018-02-09-tecaj-padi-enriched-air-diver
+  description: Tečaj PADI Enriched Air Diver, 9.2.2018
+  imagefolder: /fotogalerije/2018-02-09-tecaj-padi-enriched-air-diver
+  thumb: slika-1.jpg
+  images:
+  - name: slika-1.jpg
+- id: 2017-10-23-tecaj-aowd-kostrena
+  description: Tečaj PADI AOWD Kostrena, 22-23.10.2017
+  imagefolder: /fotogalerije/2017-10-23-tecaj-aowd-kostrena
+  thumb: slika-4.jpg
+  images:
+  - name: slika-1.jpg
+  - name: slika-2.jpg
+  - name: slika-3.jpg
+  - name: slika-4.jpg
+  - name: slika-5.jpg
+  - name: slika-6.jpg
+  - name: slika-7.jpg
+- id: 2017-02-26-tecaj-owd-piran
+  description: Tečaj PADI OWD Ljubljana/Piran, 20-26.2.2017
+  imagefolder: /fotogalerije/2017-02-26-tecaj-owd-piran
+  thumb: slika-5.jpg
+  images:
+  - name: slika-1.jpg
+  - name: slika-2.jpg
+  - name: slika-3.jpg
+  - name: slika-4.jpg
+  - name: slika-5.jpg
+  - name: slika-6.jpg

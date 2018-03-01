@@ -1,0 +1,66 @@
+/*
+* Style tweaks
+* --------------------------------------------------
+*/
+body, head {
+  font-family: 'PT Sans', sans-serif;
+}
+
+html,
+body {
+    overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+body {
+    padding-top: 170px;
+}
+footer {
+    padding: 30px 0;
+}
+
+/*
+ * Custom styles
+ */
+.navbar {
+  background: rgba(255, 255, 255, .9);
+}
+.nav-link {
+    font-size: 20px;
+}
+
+.navbar-container {
+    padding: 20px 0 20px 0;
+}
+
+.navbar.navbar-fixed-top.fixed-theme {
+    border-color: #080808;
+    box-shadow: 0 0 5px rgba(0,0,0,.8);
+}
+
+.navbar-brand.fixed-theme {
+    font-size: 18px;
+}
+
+.navbar-brand-img {
+  width: 100px;
+  height: 100px;
+}
+
+.navbar-brand-img.fixed-theme {
+  width: 60px;
+  height: 60px;
+}
+
+.navbar-container.fixed-theme {
+    padding: 0;
+}
+
+.navbar-brand-img,
+.navbar-brand-img.fixed-theme,
+.navbar-brand.fixed-theme,
+.navbar-container.fixed-theme,
+.navbar.navbar-fixed-top.fixed-theme,
+.navbar-brand,
+.navbar-container{
+    transition: 0.6s;
+    /* -webkit-transition:  0.8s; */
+}
